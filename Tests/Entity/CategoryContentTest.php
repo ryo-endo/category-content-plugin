@@ -16,6 +16,7 @@ use Plugin\CategoryContent\Entity\CategoryContent;
 
 class CategoryContentTest extends EccubeTestCase
 {
+
     public function testNewEntity()
     {
         $CategoryContent = new CategoryContent();
