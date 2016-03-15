@@ -21,5 +21,9 @@ class CategoryContentTest extends EccubeTestCase
     {
         $CategoryContent = new CategoryContent();
         $this->assertNull($CategoryContent->getId());
+
+        print 'hoge';
+
+        $this->assertTrue(false);
     }
 }
